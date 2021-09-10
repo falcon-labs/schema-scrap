@@ -1,0 +1,4 @@
+CREATE TABLE “USER” (
+	“id” INTEGER PRIMARY KEY,
+     “email” TEXT UNIQUE
+);
