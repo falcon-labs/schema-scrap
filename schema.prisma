@@ -3,9 +3,3 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model USER_ {
-  id_    Int     @id @default(autoincrement()) @map("“id”")
-  email_ String? @unique(map: "sqlite_autoindex_“USER”_1") @map("“email”")
-
-  @@map("“USER”")
-}
